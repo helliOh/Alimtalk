@@ -197,7 +197,7 @@ exports.verification = (param) =>{
     if(code.length != 6) throw `verification template failed : code should be 6 digits.`; 
 
     const tmplId = '@verification';
-    const msg = `[루쏘로프] 본인확인 인증번호(${code})를 입력해주세요.`;
+    const msg = `[템플릿7] 본인확인 인증번호(${code})를 입력해주세요.`;
 
     return {
         phn : phone,
