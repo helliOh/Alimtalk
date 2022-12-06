@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
-    "qs": "^6.9.3"
+    "qs": "^6.9.7"
   }
 }
